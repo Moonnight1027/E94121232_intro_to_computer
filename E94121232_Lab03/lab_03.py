@@ -1,0 +1,1 @@
+number = input("please input a number :") 
