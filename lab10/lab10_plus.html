@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Food Judge</title>
+    <style>h3, #output {display: inline;}</style>
+</head>
+<body>
+
+    <h3>Score Chart</h3>
+
+    <hr>
+
+    <form action='/set' method = 'POST'>
+        Store Name&nbsp;<input type="text" name="store_name"/>
+        </br>
+        </br>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Score&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="text" name="score"/>
+        </br>
+        </br>
+        <button>submit</button>
+        </form>
+	<br>
+	<h3>Current Data : <h3>
+	&nbsp;<div id="output">{{ dict0_string }}</>
+</body>
+</html>
